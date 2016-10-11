@@ -73,35 +73,103 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(320,500)" to="(380,500)"/>
-    <wire from="(320,520)" to="(380,520)"/>
-    <wire from="(370,170)" to="(430,170)"/>
-    <wire from="(680,370)" to="(730,370)"/>
-    <wire from="(670,150)" to="(720,150)"/>
-    <wire from="(520,500)" to="(570,500)"/>
-    <wire from="(830,380)" to="(890,380)"/>
-    <wire from="(240,170)" to="(290,170)"/>
-    <wire from="(780,310)" to="(780,340)"/>
-    <wire from="(770,180)" to="(770,210)"/>
-    <wire from="(330,200)" to="(330,230)"/>
-    <wire from="(770,80)" to="(770,120)"/>
-    <wire from="(820,160)" to="(850,160)"/>
-    <wire from="(780,400)" to="(780,460)"/>
-    <wire from="(510,410)" to="(510,470)"/>
-    <comp lib="7" loc="(830,380)" name="16 bit 8 word register">
-      <a name="label" val="Memory"/>
-    </comp>
-    <comp lib="7" loc="(820,160)" name="16 bit 8 word register">
+    <wire from="(270,710)" to="(330,710)"/>
+    <wire from="(270,730)" to="(330,730)"/>
+    <wire from="(760,290)" to="(810,290)"/>
+    <wire from="(770,510)" to="(820,510)"/>
+    <wire from="(150,240)" to="(150,250)"/>
+    <wire from="(470,710)" to="(520,710)"/>
+    <wire from="(920,520)" to="(980,520)"/>
+    <wire from="(150,250)" to="(200,250)"/>
+    <wire from="(500,160)" to="(500,170)"/>
+    <wire from="(310,160)" to="(310,170)"/>
+    <wire from="(350,200)" to="(350,210)"/>
+    <wire from="(370,160)" to="(370,170)"/>
+    <wire from="(340,170)" to="(340,180)"/>
+    <wire from="(350,170)" to="(350,180)"/>
+    <wire from="(430,160)" to="(430,180)"/>
+    <wire from="(870,450)" to="(870,480)"/>
+    <wire from="(860,320)" to="(860,350)"/>
+    <wire from="(500,190)" to="(500,210)"/>
+    <wire from="(240,160)" to="(240,180)"/>
+    <wire from="(190,210)" to="(350,210)"/>
+    <wire from="(860,220)" to="(860,260)"/>
+    <wire from="(240,180)" to="(330,180)"/>
+    <wire from="(310,170)" to="(340,170)"/>
+    <wire from="(350,170)" to="(370,170)"/>
+    <wire from="(90,210)" to="(110,210)"/>
+    <wire from="(910,300)" to="(940,300)"/>
+    <wire from="(350,210)" to="(500,210)"/>
+    <wire from="(870,540)" to="(870,600)"/>
+    <wire from="(460,130)" to="(470,130)"/>
+    <wire from="(530,130)" to="(600,130)"/>
+    <wire from="(270,130)" to="(280,130)"/>
+    <wire from="(200,130)" to="(210,130)"/>
+    <wire from="(460,620)" to="(460,680)"/>
+    <wire from="(200,130)" to="(200,250)"/>
+    <wire from="(360,180)" to="(430,180)"/>
+    <comp loc="(310,130)" name="3 bit register"/>
+    <comp loc="(370,130)" name="3 bit register"/>
+    <comp loc="(500,130)" name="8 bit register"/>
+    <comp loc="(970,200)" name="Register Note"/>
+    <comp loc="(430,130)" name="3 bit register"/>
+    <comp lib="7" loc="(910,300)" name="16 bit 8 word register">
       <a name="label" val="Registers"/>
     </comp>
-    <comp loc="(120,260)" name="Control Logic">
-      <a name="label" val="Control Logic"/>
+    <comp lib="0" loc="(350,200)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="16"/>
+      <a name="appear" val="center"/>
+      <a name="bit0" val="none"/>
+      <a name="bit1" val="none"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="2"/>
+      <a name="bit9" val="2"/>
+      <a name="bit10" val="2"/>
+      <a name="bit11" val="3"/>
+      <a name="bit12" val="3"/>
+      <a name="bit13" val="3"/>
+      <a name="bit14" val="3"/>
+      <a name="bit15" val="3"/>
     </comp>
-    <comp loc="(880,60)" name="Register Note"/>
-    <comp loc="(330,170)" name="Instruction Register">
+    <comp loc="(240,130)" name="5 bit register"/>
+    <comp loc="(150,210)" name="Instruction Register">
       <a name="label" val="Instruction Register"/>
     </comp>
-    <comp lib="8" loc="(520,500)" name="16 BIT ALU"/>
+    <comp lib="7" loc="(920,520)" name="16 bit 8 word register">
+      <a name="label" val="Memory"/>
+    </comp>
+    <comp loc="(80,430)" name="Control Logic">
+      <a name="label" val="Control Logic"/>
+    </comp>
+    <comp lib="0" loc="(500,190)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="1"/>
+      <a name="incoming" val="16"/>
+      <a name="appear" val="center"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="0"/>
+      <a name="bit6" val="0"/>
+      <a name="bit7" val="0"/>
+      <a name="bit8" val="none"/>
+      <a name="bit9" val="none"/>
+      <a name="bit10" val="none"/>
+      <a name="bit11" val="none"/>
+      <a name="bit12" val="none"/>
+      <a name="bit13" val="none"/>
+      <a name="bit14" val="none"/>
+      <a name="bit15" val="none"/>
+    </comp>
+    <comp lib="8" loc="(470,710)" name="16 BIT ALU"/>
   </circuit>
   <circuit name="Control Logic">
     <a name="circuit" val="Control Logic"/>
@@ -116,19 +184,19 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
   <circuit name="3 bit register">
     <a name="circuit" val="3 bit register"/>
     <a name="clabel" val="3"/>
-    <a name="clabelup" val="east"/>
+    <a name="clabelup" val="north"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
     <appear>
-      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="59" y="33">clock</text>
-      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="76" y="54">OUT</text>
-      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="60" y="75">clock</text>
-      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="41" y="54">IN</text>
-      <rect fill="none" height="60" stroke="#000000" stroke-width="2" width="60" x="30" y="20"/>
-      <circ-port height="8" pin="80,160" width="8" x="26" y="46"/>
-      <circ-port height="10" pin="220,140" width="10" x="85" y="45"/>
-      <circ-port height="8" pin="120,70" width="8" x="56" y="16"/>
-      <circ-port height="8" pin="120,230" width="8" x="56" y="76"/>
-      <circ-anchor facing="east" height="6" width="6" x="57" y="47"/>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="62" y="92">clock</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="80" y="63">OUT</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="97" y="74">clock</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="80" y="104">IN</text>
+      <rect fill="none" height="60" stroke="#000000" stroke-width="2" width="60" x="50" y="50"/>
+      <circ-port height="8" pin="80,160" width="8" x="76" y="106"/>
+      <circ-port height="10" pin="220,140" width="10" x="75" y="45"/>
+      <circ-port height="8" pin="120,70" width="8" x="46" y="76"/>
+      <circ-port height="8" pin="120,230" width="8" x="106" y="76"/>
+      <circ-anchor facing="east" height="6" width="6" x="77" y="77"/>
     </appear>
     <wire from="(110,110)" to="(110,150)"/>
     <wire from="(110,170)" to="(110,210)"/>
@@ -188,18 +256,18 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
   <circuit name="5 bit register">
     <a name="circuit" val="5 bit register"/>
     <a name="clabel" val="5"/>
-    <a name="clabelup" val="east"/>
+    <a name="clabelup" val="north"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
     <appear>
       <rect fill="none" height="60" stroke="#000000" stroke-width="2" width="60" x="30" y="20"/>
-      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="59" y="33">clock</text>
-      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="41" y="54">IN</text>
-      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="76" y="54">OUT</text>
-      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="60" y="75">clock</text>
-      <circ-port height="8" pin="110,260" width="8" x="26" y="46"/>
-      <circ-port height="10" pin="320,240" width="10" x="85" y="45"/>
-      <circ-port height="8" pin="190,120" width="8" x="56" y="16"/>
-      <circ-port height="8" pin="190,400" width="8" x="56" y="76"/>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="42" y="62">clock</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="60" y="74">IN</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="60" y="33">OUT</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="77" y="44">clock</text>
+      <circ-port height="8" pin="110,260" width="8" x="56" y="76"/>
+      <circ-port height="10" pin="320,240" width="10" x="55" y="15"/>
+      <circ-port height="8" pin="190,120" width="8" x="26" y="46"/>
+      <circ-port height="8" pin="190,400" width="8" x="86" y="46"/>
       <circ-anchor facing="east" height="6" width="6" x="57" y="47"/>
     </appear>
     <wire from="(170,280)" to="(170,360)"/>
@@ -278,18 +346,18 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
   <circuit name="8 bit register">
     <a name="circuit" val="8 bit register"/>
     <a name="clabel" val="8"/>
-    <a name="clabelup" val="east"/>
+    <a name="clabelup" val="north"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
     <appear>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="42" y="62">clock</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="60" y="74">IN</text>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="60" y="33">OUT</text>
       <rect fill="none" height="60" stroke="#000000" stroke-width="2" width="60" x="30" y="20"/>
-      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="41" y="54">IN</text>
-      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="76" y="54">OUT</text>
-      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="59" y="33">clock</text>
-      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="60" y="75">clock</text>
-      <circ-port height="8" pin="120,280" width="8" x="26" y="46"/>
-      <circ-port height="10" pin="430,260" width="10" x="85" y="45"/>
-      <circ-port height="8" pin="240,60" width="8" x="56" y="16"/>
-      <circ-port height="8" pin="240,480" width="8" x="56" y="76"/>
+      <text font-family="SansSerif" font-size="10" text-anchor="middle" x="77" y="44">clock</text>
+      <circ-port height="8" pin="120,280" width="8" x="56" y="76"/>
+      <circ-port height="10" pin="430,260" width="10" x="55" y="15"/>
+      <circ-port height="8" pin="240,60" width="8" x="26" y="46"/>
+      <circ-port height="8" pin="240,480" width="8" x="86" y="46"/>
       <circ-anchor facing="east" height="6" width="6" x="57" y="47"/>
     </appear>
     <wire from="(310,240)" to="(370,240)"/>
@@ -634,5 +702,60 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <text font-family="SansSerif" font-size="12" text-anchor="middle" x="74" y="214">7 -</text>
       <circ-anchor facing="east" height="6" width="6" x="47" y="47"/>
     </appear>
+  </circuit>
+  <circuit name="Splitter">
+    <a name="circuit" val="Splitter"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(240,230)" to="(240,390)"/>
+    <wire from="(190,400)" to="(280,400)"/>
+    <wire from="(340,230)" to="(340,390)"/>
+    <wire from="(190,210)" to="(190,220)"/>
+    <wire from="(290,390)" to="(290,430)"/>
+    <wire from="(300,390)" to="(300,430)"/>
+    <wire from="(310,400)" to="(430,400)"/>
+    <wire from="(430,230)" to="(430,400)"/>
+    <wire from="(240,390)" to="(290,390)"/>
+    <wire from="(190,220)" to="(190,400)"/>
+    <wire from="(280,400)" to="(280,430)"/>
+    <wire from="(310,400)" to="(310,430)"/>
+    <wire from="(300,390)" to="(340,390)"/>
+    <comp lib="0" loc="(300,450)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="16"/>
+      <a name="appear" val="center"/>
+      <a name="bit0" val="none"/>
+      <a name="bit1" val="none"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="2"/>
+      <a name="bit9" val="2"/>
+      <a name="bit10" val="2"/>
+      <a name="bit11" val="3"/>
+      <a name="bit12" val="3"/>
+      <a name="bit13" val="3"/>
+      <a name="bit14" val="3"/>
+      <a name="bit15" val="3"/>
+    </comp>
+    <comp lib="0" loc="(190,220)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+      <a name="width" val="5"/>
+      <a name="label" val="OpCode"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="0" loc="(300,450)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="width" val="16"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Instruction Input"/>
+      <a name="labelloc" val="south"/>
+    </comp>
   </circuit>
 </project>
